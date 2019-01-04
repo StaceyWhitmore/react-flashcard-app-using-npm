@@ -16,34 +16,18 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 
 ### Available button keys and the associated function of the button are:
 
-* up_rating
+* up_rating: move current card one tab to the right
 
-move current card one tab to the right
+* down_rating: move current card one tab to the left
 
-* down_rating
+* decrement: load previous card
 
-move current card one tab to the left
+* increment: load next card
 
-* decrement
+* flip: turn top card over
 
-load previous card
+* shuffle: randomly change order of cards
 
-* increment
+* reset: put app back into initial state
 
-load next card
-
-* flip
-
-turn top card over
-
-* shuffle
-
-randomly change order of cards
-
-* reset
-
-put app back into initial state
-
-* revert
-
-turn all cards around to show back first
+* revert: turn all cards around to show back first
