@@ -1,3 +1,5 @@
+/*The data for the cards*/
+
 export const data =
 {
   id: 1,

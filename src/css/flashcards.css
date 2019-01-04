@@ -1,0 +1,102 @@
+/*
+a copy of the css flashcards.css from
+node_modules/react-flashcards-app/flashcards.css
+I changed some of the color values to make the text more readable.
+changes are noted in the comments.
+*/
+
+body {
+	background-color: #f2f2f2; /* #f2f2f2 is a light gray*/
+  height: 100%;
+}
+div[data-reactroot] {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .flashcard-app .btn {
+    font-size: 3vmax;
+  }
+}
+@media (min-width: 768px) {
+  .flashcard-app .btn {
+    font-size: 2vmax;
+  }
+}
+.flashcard-app {
+	margin-top: 40px;
+  height: 100%;
+}
+.flashcard-app .row {
+  margin: 0;
+  position: relative;
+}
+.flashcard-app .middle-row {
+  height: 80%;
+}
+.flashcard-app .middle-row .col-md-12 {
+  height: 100%;
+}
+.flashcard-app .deck {
+  height: 85%;
+}
+.flashcard-app .ratings {
+  height: 20%;
+  background-color: #f2f2f2; /*original Value: #1a1a1a (Black). #f2f2f2 is a light gray*/
+}
+.flashcard-app .ratings li {
+  width: 20%;
+}
+.flashcard-app .ratings li,
+.flashcard-app .ratings a {
+  height: 100%;
+  text-align: center;
+  font-size: 2vmax;
+}
+.flashcard-app .card {
+  height: 100%;
+  z-index: 0;
+  left: 0;
+  z-index: 1; /*latter rule takes precedence*/
+	display: none; /*bg color later set to green; however, this rule makes it invisible*/
+}
+.flashcard-app .card[data-is-current='true'] {
+  display: block;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+
+}
+.flashcard-app .card[data-is-flipped='true'] {
+  transform: rotateY(180deg);
+}
+.flashcard-app .card-face {
+	margin-top: 20px; /*	NEW*/
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  background: green; /*original value: #1a1a1a (black)*/
+	background-color: red; /*NEW!!!!!*/
+  font-size: 3vmax; /*Original size: 6vmax*/
+  color: lightskyblue; /*original value: lightskyblue*/
+  position: absolute;
+  text-align: center;
+}
+.flashcard-app .card-face.back {
+  transform: rotateY(180deg);
+  color: black; /*original value: lightgreen*/
+}
+.flashcard-app .card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.flashcard-app .info {
+  font-size: 2vmax;
+  top: 5%;
+  right: 5%;
+  position: relative;
+  float: right;
+}
