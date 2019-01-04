@@ -31,3 +31,37 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 * **_reset_**: put app back into initial state
 
 * **_revert_**: turn all cards around to show back first
+
+## Basic Usage
+
+Example:
+```import FlashcardApp from 'react-flashcard-app';
+
+  {
+    id: 1,
+    name: 'Example Deck',
+    cards: [
+      {
+        id: 1,
+        front: 'Lorem',
+        back: 'dolor',
+      },
+      {
+        id: 2,
+        front: 'sit',
+        back: 'amet',
+      },
+      {
+        id: 3,
+        front: 'consetetur',
+        back: 'sadipscing',
+      },
+      {
+        id: 4,
+        front: 'sed',
+        back: 'diam',
+      },
+    ],
+  };
+
+<FlashcardApp data={data} />```
