@@ -10,24 +10,24 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 
 * **_topControlBar_**: Array of button keys. Sets which buttons will apear at which position in the top control bar
 
-* bottomControlBar: Array of button keys. Sets which buttons will apear at which position in the bottom control bar
+* **-bottomControlBar_**: Array of button keys. Sets which buttons will apear at which position in the bottom control bar
 
-* buttonTexts: Object of button keys and string values. Overrides the default button texts.
+* **-buttonTexts_**: Object of button keys and string values. Overrides the default button texts.
 
 ### Available button keys and the associated function of the button are:
 
-* up_rating: move current card one tab to the right
+* **-up_rating_**: move current card one tab to the right
 
-* down_rating: move current card one tab to the left
+* **-down_rating_**: move current card one tab to the left
 
-* decrement: load previous card
+* **-decrement_**: load previous card
 
-* increment: load next card
+* **-increment_**: load next card
 
-* flip: turn top card over
+* **-flip_**: turn top card over
 
-* shuffle: randomly change order of cards
+* **-shuffle_**: randomly change order of cards
 
-* reset: put app back into initial state
+* **-reset_**: put app back into initial state
 
-* revert: turn all cards around to show back first
+* **-revert_**: turn all cards around to show back first
