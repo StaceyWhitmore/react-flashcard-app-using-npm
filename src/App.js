@@ -7,7 +7,7 @@ class App extends Component {
     return (
 
       <div className="App">
-      <FlashcardApp data={data} />
+      <FlashcardApp data={data} options={options}/>
       </div>
     );
 

@@ -2,3 +2,5 @@ A React Flashcard app built using the npm module [react-flashcard-app](https://w
 =================================
 *Instructions for using the react-flashcard-app npm modules can be found at
 https://www.npmjs.com/package/react-flashcard-app
+
+*On [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
