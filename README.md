@@ -8,7 +8,7 @@ https://www.npmjs.com/package/react-flashcard-app
 ### Usage with Options
 There are three main option keys available:
 
-*topControlBar
+* topControlBar
 
 Array of button keys. Sets which buttons will apear at which position in the top control bar
 
