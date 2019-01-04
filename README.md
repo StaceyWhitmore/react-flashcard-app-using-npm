@@ -3,7 +3,7 @@ A React Flashcard app built using the npm module [react-flashcard-app](https://w
 *Instructions for using the react-flashcard-app npm modules can be found at
 https://www.npmjs.com/package/react-flashcard-app
 
-### npm warnings (install webpack @^1.9.11)
+### npm warnings (install webpack @^1.9.11):
 
 
 
