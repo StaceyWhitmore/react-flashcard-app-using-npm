@@ -37,6 +37,7 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 Example:
 ```import FlashcardApp from 'react-flashcard-app';
 
+const data = 
   {
     id: 1,
     name: 'Example Deck',
@@ -64,4 +65,16 @@ Example:
     ],
   };
 
-<FlashcardApp data={data} />```
+  export const options =
+    {
+      topControlBar: [ 'downRating', 'decrement', 'increment', 'upRating',
+      ],
+      bottomControlBar: [
+        'flip', 'shuffle', 'reset', 'revert',
+      ],
+      buttonTexts: {
+        shuffle: 'shuffle',
+      },
+    };
+
+<FlashcardApp data={data} options={options}/>```
