@@ -26,8 +26,13 @@ export const data =
     },
     {
       id: 4,
-      front: '  ',
-      back: 'diam',
+      front: 'What is a Pure Function?',
+      back: 'A Function with no side effects (i.e. immutability). Meaning it does not permanently alter data but rather makes copies (e.g. By using the es6 spread operator etc.)',
+    },
+    {
+      id: 5,
+      front: 'What is a Stateless Functional Component',
+      back: 'A pure Function built using => for all components that do not manage state and should be used whenever possible.',
     },
   ],
 };
