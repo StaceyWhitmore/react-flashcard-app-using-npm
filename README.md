@@ -28,7 +28,7 @@ move current card one tab to the right
 
 move current card one tab to the left
 
-** decrement
+* decrement
 
 load previous card
 
