@@ -6,6 +6,6 @@ export const options =
       'flip', 'shuffle', 'reset', 'revert',
     ],
     buttonTexts: {
-      shuffle: 'custom text here',
+      shuffle: 'shuffle',
     },
   };
