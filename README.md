@@ -10,9 +10,9 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 
 * **_topControlBar_**: Array of button keys. Sets which buttons will apear at which position in the top control bar
 
-* **bottomControlBar_**: Array of button keys. Sets which buttons will apear at which position in the bottom control bar
+* **_bottomControlBar_**: Array of button keys. Sets which buttons will apear at which position in the bottom control bar
 
-* **buttonTexts_**: Object of button keys and string values. Overrides the default button texts.
+* **_buttonTexts_**: Object of button keys and string values. Overrides the default button texts.
 
 ### Available button keys and the associated function of the button are:
 
