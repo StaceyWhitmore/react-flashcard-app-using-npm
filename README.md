@@ -37,7 +37,7 @@ See code sandbox at [codesandbox.io](https://codesandbox.io/s/91r5p4wnlr)
 Example:
 ```import FlashcardApp from 'react-flashcard-app';
 
-const data = 
+const data =
   {
     id: 1,
     name: 'Example Deck',
@@ -77,4 +77,4 @@ const data =
       },
     };
 
-<FlashcardApp data={data} options={options}/>```
+<FlashcardApp data={data} options={options}/>
